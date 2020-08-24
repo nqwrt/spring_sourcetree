@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Handles requests for the application home page.
  */
+//version-1
 @Controller
 public class HomeController {
 	
@@ -33,7 +34,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		//¸ÓÁö1
+		//ï¿½ï¿½ï¿½ï¿½1
 		return "home";
 	}
 	
